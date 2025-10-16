@@ -98,7 +98,7 @@ main(int argc, char *argv[])
     sgl_obj_set_style(msgbox, SGL_STYLE_MSGBOX_APPLY_TEXT, SGL_TEXT("OK"));
     sgl_obj_set_style(msgbox, SGL_STYLE_MSGBOX_CLOSE_TEXT, SGL_TEXT("NO"));
     sgl_obj_set_style(msgbox, SGL_STYLE_BORDER_WIDTH, 2);
-    sgl_obj_set_style(msgbox, SGL_STYLE_BORDER_COLOR, SGL_COLOR(SGL_LIGHT_GRAY));
+    sgl_obj_set_style(msgbox, SGL_STYLE_BORDER_COLOR, SGL_COLOR(SGL_COLOR_LIGHT_GRAY));
     sgl_obj_set_alpha(msgbox, 255);
 
     sgl_obj_t *button = sgl_button_create(NULL);
@@ -106,7 +106,7 @@ main(int argc, char *argv[])
     sgl_obj_set_size(button, 200, 100);
     sgl_obj_set_style(button, SGL_STYLE_RADIUS, 50);
     sgl_obj_set_style(button, SGL_STYLE_BORDER_WIDTH, 2);
-    sgl_obj_set_style(button, SGL_STYLE_BORDER_COLOR, SGL_COLOR(SGL_BLACK));
+    sgl_obj_set_style(button, SGL_STYLE_BORDER_COLOR, SGL_COLOR(SGL_COLOR_BLACK));
     sgl_obj_set_font(button, &song23);
     sgl_obj_set_style(button, SGL_STYLE_TEXT, SGL_TEXT("click me"));
 
@@ -114,8 +114,8 @@ main(int argc, char *argv[])
     sgl_obj_set_pos(rect1, 20, 20);
     sgl_obj_set_size(rect1, 50, 100);
     sgl_obj_set_alpha(rect1, 255);
-    sgl_obj_set_color(rect1, SGL_GRAY);
-    sgl_obj_set_border_color(rect1, SGL_GREEN);
+    sgl_obj_set_color(rect1, SGL_COLOR_GRAY);
+    sgl_obj_set_border_color(rect1, SGL_COLOR_GREEN);
     sgl_obj_set_border_width(rect1, 3);
     sgl_obj_set_radius(rect1, 10);
     sgl_obj_set_alpha(rect1, 150);
@@ -124,8 +124,8 @@ main(int argc, char *argv[])
     sgl_obj_set_pos(rect2, 20, 20);
     sgl_obj_set_size(rect2, 50, 100);
     sgl_obj_set_alpha(rect2, 255);
-    sgl_obj_set_color(rect2, SGL_BRIGHT_PURPLE);
-    sgl_obj_set_border_color(rect2, SGL_GREEN);
+    sgl_obj_set_color(rect2, SGL_COLOR_BRIGHT_PURPLE);
+    sgl_obj_set_border_color(rect2, SGL_COLOR_GREEN);
     sgl_obj_set_border_width(rect2, 3);
     sgl_obj_set_radius(rect2, 10);
     sgl_obj_set_alpha(rect2, 150);
